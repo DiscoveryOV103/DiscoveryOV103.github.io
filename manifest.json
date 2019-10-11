@@ -4,12 +4,17 @@
     "description": "ウェブアプリの説明文",
     "icons": [
         {
+            "src": "icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
             "src": "icon-192.png",
             "sizes": "192x192",
             "type": "image/png"
         }
     ],
-    "start_url": "/path/to/index.html",
+    "start_url": "./index.html",
     "display": "fullscreen",
     "theme_color": "#dff0d8",
     "background_color": "#dff0d8"
